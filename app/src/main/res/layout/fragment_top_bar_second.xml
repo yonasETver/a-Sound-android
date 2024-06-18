@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:background="#2abf97"
+    android:id="@+id/topBarSecond">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_back_arrow"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/back_arow_icon"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_menu"
+        android:layout_marginTop="5dp"
+        android:id="@+id/menuIconSecond"
+        android:layout_toEndOf="@+id/back_arow_icon"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/menuIconSecond"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rellogo"
+        >
+
+        <ImageView
+
+            android:id="@+id/titleLogoIconSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:src="@drawable/app_logo" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_setting"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/settingIconSecond"
+        />
+
+</RelativeLayout>

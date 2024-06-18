@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group >
+       <item
+           android:id="@+id/langId"
+           android:title="LNG">
+           <menu>
+               <group>
+                   <item
+                       android:id="@+id/ukId"
+                       android:title="UK">
+                   </item>
+                   <item
+                       android:id="@+id/usId"
+                       android:title="US"></item>
+               </group>
+           </menu>
+
+       </item>
+
+   </group>
+</menu>

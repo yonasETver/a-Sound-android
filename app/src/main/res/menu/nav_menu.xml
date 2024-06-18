@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+                android:id="@+id/numberScreen"
+                android:icon="@drawable/number"
+                android:title="number"
+                app:showAsAction="always"
+                >
+            </item>
+
+            <item
+                android:id="@+id/abcScreen"
+                android:icon="@drawable/alpha"
+                android:title="abc"
+                app:showAsAction="always"
+
+                >
+            </item>
+
+            <item
+                android:id="@+id/wordScreen"
+                android:title="word"
+                android:icon="@drawable/word"
+                app:showAsAction="always"
+                >
+            </item>
+
+            <item
+                android:id="@+id/colorScreen"
+                android:title="color"
+                android:icon="@drawable/color"
+                app:showAsAction="always"
+                >
+            </item>
+</menu>
